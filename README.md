@@ -20,7 +20,7 @@ Lines 38-69: Makes the spinner work using if-statements.
 There are five different bus schedules for NYIT which I got from this link: https://www3.nyit.edu/files/long_island/LI_InterCampusBusSchedule.pdf
 Each bus schedule has its own .xml and .java. I'm not exactly sure if the .java files matter but I'd leave those in your project just to be sure - they should be in the same folder as your other .java files. 
 
-There are also five images, one for each bus schedule, and they are either .png or .jpg. They are named after their bus schedules so it should be obvious which ones are which. These should be stored in your drawable folder. so the .xml files can call to them. 
+There are also five images, one for each bus schedule, and they are either .png or .jpg. They are named after their bus schedules so it should be obvious which ones are which. These should be stored in your drawable folder so the .xml files can call to them. 
 
 The content_main.xml file might not be necessary at all.
 
