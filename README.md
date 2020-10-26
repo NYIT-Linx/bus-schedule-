@@ -2,12 +2,19 @@
 View bus schedules. Choose a bus schedule using the spinner object. 
 
 These are the files for the bus schedule. In this readme I'll go over the files and what you should do with them.
+
 -activity_main.xml: This is the file that contains the spinner that users can use to choose which bus schedule they want to view. I've tested it and the spinner should work properly. This filename may conflict with one of yours - in that case you can just change the filename. 
+
 strings.xml: This file contains the string array called "names" for the spinner. You can just incorporate that array into your own strings.xml (lines 13-20). 
+
 -MainActivity.java: This is the java file that makes the spinner work. You may need to just incorporate this into your own MainActivity.java. The lines that are specifically important for the spinner to work are lines 3, 12, 14-15, 17, 20-21, and 31-69. Here is a short breakdown of the .java file and what's important:
+
 Lines 3, 12, 14-15, 17, 20-21: these are the imports that the spinner uses. 
+
 Line 31: Basically imports the object spinnerX from activity_main.xml.
+
 Lines 33-36: Adds the options for the spinner. For line 34, your strings.xml file should be updated with the names string array. 
+
 Lines 38-69: Makes the spinner work using if-statements. 
 
 There are five different bus schedules for NYIT which I got from this link: https://www3.nyit.edu/files/long_island/LI_InterCampusBusSchedule.pdf
